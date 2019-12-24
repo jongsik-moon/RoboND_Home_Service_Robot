@@ -6,4 +6,4 @@ xterm -e "roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=$(pwd)/s
 sleep 5
 xterm -e "roslaunch turtlebot_gazebo amcl_demo.launch map_file:=$(pwd)/src/map/world.yaml" &
 sleep 5
-xterm -e "roslaunch turtlebot_rviz_launchers view_navigation.launch"
+xterm -e "rosrun rviz rviz -d $(pwd)/src/rvizConfig/default.rviz"
