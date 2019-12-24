@@ -1,0 +1,8 @@
+prefix=/home/jongsik/Robotics_Software_Engineer/Home_Service_Robot/src/add_markers/cmake-build-debug/devel
+
+Name: add_markers
+Description: Description of add_markers
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jongsik/Robotics_Software_Engineer/Home_Service_Robot/src/add_markers/cmake-build-debug/devel/lib 
+Requires: 

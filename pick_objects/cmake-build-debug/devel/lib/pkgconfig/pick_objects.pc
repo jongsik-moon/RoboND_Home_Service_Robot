@@ -1,0 +1,8 @@
+prefix=/home/jongsik/Robotics_Software_Engineer/Home_Service_Robot/src/pick_objects/cmake-build-debug/devel
+
+Name: pick_objects
+Description: Description of pick_objects
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jongsik/Robotics_Software_Engineer/Home_Service_Robot/src/pick_objects/cmake-build-debug/devel/lib 
+Requires: 
