@@ -10,6 +10,7 @@ Panels:
         - /Local Map1
         - /Local Map1/Planner1
         - /Local Map1/Trajectory Cloud1
+        - /Marker1
       Splitter Ratio: 0.5
     Tree Height: 757
   - Class: rviz/Selection
@@ -493,6 +494,14 @@ Visualization Manager:
       Topic: /move_base/NavfnROS/plan
       Unreliable: false
       Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /visualization_marker
+      Name: Marker
+      Namespaces:
+        basic_shapes: true
+      Queue Size: 100
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -516,7 +525,7 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Angle: -6.72002983
+      Angle: -6.81503105
       Class: rviz/TopDownOrtho
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
@@ -526,11 +535,11 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Scale: 96.648201
+      Scale: 35.6843147
       Target Frame: <Fixed Frame>
       Value: TopDownOrtho (rviz)
-      X: -1.35336006
-      Y: 2.04397988
+      X: 1.10464072
+      Y: -0.713911235
     Saved: ~
 Window Geometry:
   Displays:

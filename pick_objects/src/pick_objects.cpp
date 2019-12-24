@@ -1,8 +1,8 @@
 #include <ros/ros.h>
 #include <move_base_msgs/MoveBaseAction.h>
 #include <actionlib/client/simple_action_client.h>
-float pickup[3] = {1.0, 1.0, 3.0};
-float dropoff[3] = {2.0, 2.0, 2.0};
+float pickup[3] = {4.0, 0.0, 1.0};
+float dropoff[3] = {2.0, -0.5, 2.0};
 
 // Define a client for to send goal requests to the move_base server through a SimpleActionClient
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;

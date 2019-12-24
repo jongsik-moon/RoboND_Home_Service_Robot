@@ -12,6 +12,7 @@
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 -- catkin 0.7.18
 -- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jongsik/Robotics_Software_Engineer/Home_Service_Robot/src/add_markers/cmake-build-debug
